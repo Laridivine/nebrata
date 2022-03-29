@@ -1,10 +1,9 @@
-//change the color of the navbar when scrolling down the page   //
 $(document).ready(function () {
-  $(window).scroll(function () {
-    if ($(window).scrollTop() > 100) {
-      $(".navbar").addClass("navbar-scrolled");
-    } else {
-      $(".navbar").removeClass("navbar-scrolled");
-    }
+  $(".owl-carousel").owlCarousel({
+    loop: true,
+    margin: 10,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    items:6,
   });
 });
