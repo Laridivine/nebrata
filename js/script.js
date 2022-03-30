@@ -17,6 +17,5 @@ $(window).scroll(function () {
   } else {
     $('.navbar').removeClass('black');
     $('.nav-link').removeClass('white');
-
   }
 });
