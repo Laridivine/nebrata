@@ -73,7 +73,7 @@ body {
   display: flex;
   margin-left: 5px;
 }
-footer{
+footer {
   color: #fff;
 }
 
@@ -90,9 +90,23 @@ footer{
   justify-content: center;
   align-items: center;
 }
-.presentation-section *{
-  margin:.5em 0;
+.presentation-section * {
+  margin: 0.5em 0 10px 0.5em;
   line-height: 2;
   font-size: larger;
   font-weight: 500;
+}
+.flex-center {
+  margin-top: 20px;
+}
+
+header a {
+  transition: 500ms ease-in !important;
+}
+
+header a:hover {
+  background-color: #5f9d31;
+  color: #fff !important;
+  border-bottom: 5px solid #faaf3a;
+  margin-top: -8px;
 }
