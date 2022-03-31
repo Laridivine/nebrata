@@ -3,10 +3,12 @@
 body {
   margin: 0;
   width: 100% !important;
+  font-family:Arial, Helvetica, sans-serif;
+
 }
 
 * {
-  transition: 2s ease-out !important;
+  transition: 200ms ease-out !important;
   /* border: 1px solid #000; */
 }
 
@@ -101,12 +103,54 @@ footer {
 }
 
 header a {
-  transition: 500ms ease-in !important;
+  transition: 300ms ease-in !important;
 }
 
-header a:hover, .section-reach {
+header a:hover,
+.section-reach {
   background-color: #5f9d31;
   color: #fff !important;
   border-bottom: 5px solid #faaf3a;
-  margin-top: -8px;
+  height: 100% !important;
+}
+.navbar-brand:hover {
+  background-color: initial;
+  color: initial;
+  border-bottom: initial;
+  height: initial;
+}
+
+header ul,
+header li,
+header:hover {
+  height: 100% !important;
+}
+
+.team:hover {
+  filter: grayscale(1%) ;
+}
+.services {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #daf4fe;
+}
+.services > div:nth-child(2) {
+  border-left: 7px solid white;
+  border-right: 7px solid white;
+}
+.btn-outline-primary{
+  align-self: flex-end !important;
+}
+
+.circle-hover{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #d68c0b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
