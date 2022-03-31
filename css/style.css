@@ -104,7 +104,7 @@ header a {
   transition: 500ms ease-in !important;
 }
 
-header a:hover {
+header a:hover, .section-reach {
   background-color: #5f9d31;
   color: #fff !important;
   border-bottom: 5px solid #faaf3a;
