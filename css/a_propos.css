@@ -1,16 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
-.bg-opacity-10{
-    --bs-bg-opacity:1;
-}
+
 .navbar-brand {
     color: #5f9d31 !important;
     font-size: xx-large;
     font-weight: 900;
     font-family: "Archivo Black", sans-serif;
   }
+  .bg-opacity-10 {
+    --bs-bg-opacity: 1;
+  }
   .nav-link {
     font-size: 21px !important;
-    color: #000 !important;
+    color: white !important;
     font-weight: 600;
   }
   .collapse {
@@ -21,7 +22,36 @@
   }
   .inno{
       display: flex;
-      margin-top: 150px !important;
+      margin-top: 100px !important;
       justify-content: center;
+      margin-left:50px;
+      margin-right:50px;
   }
-  
+  .texte{
+    line-height: 2;
+    font-size: larger;
+    font-weight: 500;
+    text-align:justify;
+    margin-right:50px;
+  }
+  #equip{
+    margin-top:50px;
+    margin-bottom:50px;
+  }
+  header a:hover, .section-reach {
+    background-color: #5f9d31;
+    color: #fff !important;
+    border-bottom: 5px solid #faaf3a;
+    margin-top: -8px;
+  }
+  footer {
+    color: white;
+  }
+  .copyright {
+    background-color: black;
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

@@ -1,8 +1,8 @@
 body{
     margin-top: 80px !important;
 } 
-.bg-opacity-10{
-  --bs-bg-opacity:1;
+.bg-opacity-10 {
+  --bs-bg-opacity: 1;
 }
 .navbar-brand {
     color: #5f9d31 !important;
@@ -31,6 +31,27 @@ body{
     margin-bottom: 50px !important;
     height: 500px;
 }
+.card-text{
+    line-height: 1;
+    font-size: larger;
+    font-weight: 500;
+    text-align:justify;
+  
+}
 footer{
   color: white;
+}
+.copyright {
+  background-color: black;
+  height: 60px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header a:hover, .section-reach {
+  background-color: #5f9d31;
+  color: #fff !important;
+  border-bottom: 5px solid #faaf3a;
+  margin-top: -8px;
 }
