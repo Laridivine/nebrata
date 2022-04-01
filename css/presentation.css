@@ -1,0 +1,22 @@
+body{
+    background-color:#f7f7f7 ;
+    margin-top: 65px !important;
+}
+
+.bg-dark{
+    letter-spacing: 2px;
+    background-image: url("../image/bg-01.jpg");
+    width: 100%;
+    height: 300px;
+    background-color: aquamarine;
+}
+.card-img-overlay{
+    background-color: #609d31c9;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 900;
+    font-size:large;
+    font-family: "Archivo Black", sans-serif;
+}

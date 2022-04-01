@@ -19,3 +19,5 @@ $(window).scroll(function () {
     $('.nav-link').removeClass('white');
   }
 });
+
+// create ball under the mouse on hover

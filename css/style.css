@@ -3,8 +3,7 @@
 body {
   margin: 0;
   width: 100% !important;
-  font-family:Arial, Helvetica, sans-serif;
-
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -33,6 +32,35 @@ body {
 .nav-item {
   margin-left: 15px !important;
 }
+
+header ul,
+header li,
+header:hover {
+  height: 100% !important;
+}
+
+footer {
+  color: #fff;
+}
+
+header a {
+  transition: 300ms ease-in !important;
+}
+
+header a:hover,
+.section-reach {
+  background-color: #5f9d31;
+  color: #fff !important;
+  border-bottom: 5px solid #faaf3a;
+  height: 100% !important;
+}
+.navbar-brand:hover {
+  background-color: initial;
+  color: #5f9d31 !important;
+  border-bottom: initial;
+  height: initial;
+}
+
 .carousel-caption {
   display: flex !important;
   color: #000 !important;
@@ -75,10 +103,6 @@ body {
   display: flex;
   margin-left: 5px;
 }
-footer {
-  color: #fff;
-}
-
 .pres-title {
   color: #faaf3a !important;
   font-size: 1em;
@@ -101,33 +125,8 @@ footer {
 .flex-center {
   margin-top: 20px;
 }
-
-header a {
-  transition: 300ms ease-in !important;
-}
-
-header a:hover,
-.section-reach {
-  background-color: #5f9d31;
-  color: #fff !important;
-  border-bottom: 5px solid #faaf3a;
-  height: 100% !important;
-}
-.navbar-brand:hover {
-  background-color: initial;
-  color: initial;
-  border-bottom: initial;
-  height: initial;
-}
-
-header ul,
-header li,
-header:hover {
-  height: 100% !important;
-}
-
 .team:hover {
-  filter: grayscale(1%) ;
+  filter: grayscale(1%);
 }
 .services {
   height: 250px;
@@ -140,17 +139,13 @@ header:hover {
   border-left: 7px solid white;
   border-right: 7px solid white;
 }
-.btn-outline-primary{
+.btn-outline-primary {
   align-self: flex-end !important;
 }
 
-.circle-hover{
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  background-color: #d68c0b;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
+.col-md-3 ul > li {
+  list-style: none;
+}
+#presentation {
+  background-color: #f7f7f7;
 }
