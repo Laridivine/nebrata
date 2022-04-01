@@ -20,4 +20,3 @@ $(window).scroll(function () {
   }
 });
 
-// create ball under the mouse on hover

@@ -1,0 +1,20 @@
+body{
+    margin-top: 105px;
+    /* margin-bottom: 0 ; */
+    /* height: 900px; */
+    background-color: #f1f1f1;
+}
+
+
+.formulaire{
+    width: 50% !important;
+    margin: auto !important;
+    box-shadow: 40px 19px 40px #f1f1f1 !important;
+    border-radius: 2%;
+}
+
+/* footer{
+    position:fixed !important;
+    bottom: 0 !important;
+    width: 100% !important;
+} */
