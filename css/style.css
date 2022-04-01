@@ -2,8 +2,9 @@
 
 body {
   margin: 0;
-  width: 100% !important;
+  /* width: 100% !important; */
   font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 100px;
 }
 
 * {
@@ -47,13 +48,12 @@ header a {
   transition: 300ms ease-in !important;
 }
 
-header a:hover,
-.section-reach {
+header a:hover {
   background-color: #5f9d31;
   color: #fff !important;
   border-bottom: 5px solid #faaf3a;
-  height: 100% !important;
 }
+
 .navbar-brand:hover {
   background-color: initial;
   color: #5f9d31 !important;
@@ -148,4 +148,8 @@ header a:hover,
 }
 #presentation {
   background-color: #f7f7f7;
+}
+
+.zoom .col .h-90:hover {
+box-shadow: 30px 25px 20px rgba(231, 227, 227, 0.712);
 }
