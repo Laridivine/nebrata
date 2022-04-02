@@ -150,4 +150,5 @@ header a:hover {
 
 .zoom .col .h-90:hover {
   box-shadow: 30px 25px 20px rgba(231, 227, 227, 0.712);
+  border: 0px !important;
 }

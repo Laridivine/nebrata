@@ -4,19 +4,30 @@ $(document).ready(function () {
     margin: 10,
     autoplay: true,
     autoplayTimeout: 5000,
-    items:6,
+    items: 6,
   });
 });
 
-
 // change the navbar backgroundcolor to black and the text color to white on page scroll
 $(window).scroll(function () {
-  if ($(document).scrollTop() > 5) {
-    $('.navbar').addClass('black');
-    $('.nav-link').addClass('white');
+  if ($(document).scrollTop() > 3) {
+    $(".navbar").addClass("black");
+    $(".nav-link").addClass("white");
   } else {
-    $('.navbar').removeClass('black');
-    $('.nav-link').removeClass('white');
+    $(".navbar").removeClass("black");
+    $(".nav-link").removeClass("white");
   }
 });
 
+
+
+
+var toastTrigger = document.getElementById('liveToastBtn')
+var toastLiveExample = document.getElementById('liveToast')
+if (toastTrigger) {
+  toastTrigger.addEventListener('click', function () {
+    var toast = new bootstrap.Toast(toastLiveExample)
+
+    toast.show()
+  })
+}

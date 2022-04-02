@@ -97,19 +97,34 @@
                 </div>
             </div>
             <div class="col-12">
-                <button type="submit" class="btn btn-primary">M'abonner</button>
+                <button type="submit" class="btn btn-primary" id="liveToastBtn">M'abonner</button>
             </div>
             <br>
             <br>
         </form>
 
-<br>
-<br>
-<br>
-<br>
-<br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
 
 
+        <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+            <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    <!-- <img src="..." class="rounded me-2" alt="..."> -->
+                    <strong class="me-auto" style="color: #5f9d31;">Ne<span
+                            style="color: #faaf3a;">brata</span></strong>
+                    <small>A l'instant</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                    Merci de nous avoir contacter, votre requete sera traite d'un instant a l'autre, et nous enverons un
+                    mail de reponse
+                </div>
+            </div>
+        </div>
 
         <footer>
             <!-- class="fixed-bottom">-->
