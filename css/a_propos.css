@@ -43,6 +43,9 @@ body {
   .carousel-item img{
     width:100px;
   }
+  .carousel-item h5, .carousel-item p{
+    color:white;
+  }
   .animation{
     display:flex;
     justify-content:center;

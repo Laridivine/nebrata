@@ -1,6 +1,7 @@
 body{
-    margin-top: 80px !important;
+    margin-top: 75px !important;
 } 
+
 .navbar-brand {
     color: #5f9d31 !important;
     font-size: xx-large;
@@ -19,12 +20,14 @@ body{
     margin-left: 15px !important;
   }
 .serve{
+  padding-top:10px;
     display: flex;
+    background-color:#e9ecef;
 }
 .card{
     margin-left: auto !important;
     margin-right: auto !important;
-    margin-bottom: 50px !important;
+    margin-bottom: 5px !important;
     height: 500px;
 }
 .card-text{
