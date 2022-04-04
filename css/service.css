@@ -1,9 +1,6 @@
 body{
     margin-top: 80px !important;
 } 
-.bg-opacity-10 {
-  --bs-bg-opacity: 1;
-}
 .navbar-brand {
     color: #5f9d31 !important;
     font-size: xx-large;
@@ -12,8 +9,7 @@ body{
   }
   .nav-link {
     font-size: 21px !important;
-    color: white !important;
-    color:  !important;
+    color: black !important;
     font-weight: 600;
   }
   .collapse {
