@@ -1,3 +1,23 @@
 body {
   margin-top: 75px;
 }
+
+
+h5{
+  color: rgb(0, 0, 0) !important;
+}
+
+
+.one-of-three{
+
+  width: 33% !important;
+}
+
+.img-fluid {
+  height: 100% !important;
+}
+
+a {
+  color: white !important;
+  text-decoration: none;
+}
