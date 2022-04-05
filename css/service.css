@@ -19,7 +19,7 @@ body{
   .nav-item {
     margin-left: 15px !important;
   }
-.serve{
+.serve, .service{
   padding-top:10px;
     display: flex;
     background-color:#e9ecef;
