@@ -8,7 +8,6 @@ $(document).ready(function () {
   });
 });
 
-// change the navbar backgroundcolor to black and the text color to white on page scroll
 $(window).scroll(function () {
   if ($(document).scrollTop() > 3) {
     $(".navbar").addClass("black");
